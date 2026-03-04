@@ -1,9 +1,9 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
 
 export function AppRouter() {
-  return (
-    <Routes>
-      <Route path="/" element={<div>Home Page</div>} />
-    </Routes>
-  );
+	return (
+		<Routes>
+			<Route path="/" element={<div>Home Page</div>} />
+		</Routes>
+	);
 }
