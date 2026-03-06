@@ -1,0 +1,23 @@
+/* Inter - обычный */
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter'),
+		url('../../shared/assets/fonts/Inter-VariableFont_opsz\,wght.ttf')
+			format('truetype');
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+}
+
+/* Inter - курсив */
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter Italic'),
+		url('../../shared/assets/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf')
+			format('truetype');
+	font-style: italic;
+	font-weight: 100 900;
+	font-display: swap;
+}
